@@ -43,7 +43,7 @@ const Footer = () => {
       </nav>
 
       <p>
-        &copy;2023 Cluster Pedals. All Rights Reserved -
+        &copy;2023 Pedal Cluster. All Rights Reserved -
         <a href="contacto@pedalcluster.com"> contacto@pedalcluster.com</a>/
         developed by{" "}
         <a href="https://www.linkedin.com/in/emanuel-valente/" target="_blank">
