@@ -1,10 +1,9 @@
 import styled from "styled-components";
 import image from "../assets/paypal.svg";
-import Socials from "./ui/Socials";
 
 const Legals = styled.footer`
   width: 100%;
-  padding: 8px 16px;
+  padding: 8px 0;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
   color: white;
