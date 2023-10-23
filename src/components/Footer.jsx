@@ -3,8 +3,8 @@ import image from "../assets/paypal.svg";
 import Socials from "./ui/Socials";
 
 const Legals = styled.footer`
+  width: 100%;
   padding: 8px 16px;
-  margin-top: auto;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
   color: white;
@@ -31,7 +31,7 @@ const Footer = () => {
   return (
     <Legals>
       <Title>
-        we accept paypal peyments
+        we accept paypal payments
         <Logo src={image} alt="paypal logo" />
       </Title>
       <nav>
@@ -42,14 +42,14 @@ const Footer = () => {
         </ul>
       </nav>
 
-      <p>
+      <h5>
         &copy;2023 Pedal Cluster. All Rights Reserved -
-        <a href="contacto@pedalcluster.com"> contacto@pedalcluster.com</a>/
+        <a href="contacto@pedalcluster.com"> contacto@pedalcluster.com</a> /
         developed by{" "}
         <a href="https://www.linkedin.com/in/emanuel-valente/" target="_blank">
           Emanuel Valente
         </a>
-      </p>
+      </h5>
     </Legals>
   );
 };

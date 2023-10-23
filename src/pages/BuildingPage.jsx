@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import image from "../assets/logo.jpg";
-import tapis from "../assets/poster_jaminabox-18e.png";
+import tapis from "../assets/poster_chico.png";
 import Footer from "../components/Footer";
 import ShopBtn from "../components/ui/ShopBtn";
 import Socials from "../components/ui/Socials";
@@ -8,9 +8,10 @@ import Socials from "../components/ui/Socials";
 const Background = styled.div`
   width: 100%;
   min-height: 100vh;
-  position: relative;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
   background-image: linear-gradient(
       to right,
       rgb(20, 20, 20),
@@ -19,23 +20,18 @@ const Background = styled.div`
     url(${tapis});
   background-size: cover;
   background-position: center;
-
-  @media (min-width: 900px) {
-    background-size: auto;
-  }
+  background-repeat: no-repeat;
 `;
 
 const Container = styled.div`
   width: 135px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin-top: 270px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 `;
+
 const Logo = styled.img`
   width: 100px;
   border-radius: 50%;
